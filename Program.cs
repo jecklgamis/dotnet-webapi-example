@@ -26,7 +26,7 @@ app.MapGet("/", () =>
     };
     return Results.Ok(data);
 });
-app.MapGet("/probe/live", () => Results.Ok("I'm alive!"));
-app.MapGet("/probe/ready", () => Results.Ok("I'm ready!"));
+app.MapGet("/probe/live", () => Results.Text("I'm alive!"));
+app.MapGet("/probe/ready", () => Results.Text("I'm ready!"));
 app.Logger.LogInformation("App started");
 app.Run();
