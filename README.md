@@ -1,6 +1,6 @@
-## .NET-webapi-example
+## dotnet-webapi-example
 
-[![Build](https://github.com/jecklgamis/dotnet-webapi-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/.NET-webapi-example/actions/workflows/build.yml)
+[![Build](https://github.com/jecklgamis/dotnet-webapi-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/dotnet-webapi-example/actions/workflows/build.yml)
 
 An example Web API app using ASP.NET Core.
 
