@@ -21,7 +21,7 @@ An example app using .NET Web API.
 
 .NET binary:
 ```
-.NET build
+dotnet build
 ``` 
 
 Docker image:
@@ -33,16 +33,16 @@ docker build -t .NETweb-api-example:main .
 
 Using .NET binary:
 ```
-.NET run --environment Development
+dotnet run --environment Development
 ``` 
 
 Using `Docker`:
 
 ```
 docker run \
-    -e ".NET_ENVIRONMENT=Production" \
+    -e "DOTNET_ENVIRONMENT=Production" \
     -e "ASPNETCORE_URLS=http://*:8080" \
-    -it .NETweb-api-example:main
+    -it dotnet-web-api-example:main
 ```
 Then point your browser to http://localhost:8080.
 
