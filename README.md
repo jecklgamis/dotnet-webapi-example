@@ -4,6 +4,8 @@
 
 An example Web API app using ASP.NET Core.
 
+Docker : `docker run -it jecklgamis/dotnet-webapi-example:main`
+
 ## What's In the Box?
 * Web API app using .NET 7
 * Docker image
