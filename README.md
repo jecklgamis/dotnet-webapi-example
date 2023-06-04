@@ -1,11 +1,10 @@
 ## .NET-webapi-example
 
-[![Build](https://github.com/jecklgamis/.NET-webapi-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/.NET-webapi-example/actions/workflows/build.yml)
+[![Build](https://github.com/jecklgamis/dotnet-webapi-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/.NET-webapi-example/actions/workflows/build.yml)
 
-An example app using .NET Web API.
+An example Web API app using ASP.NET Core.
 
 ## What's In the Box?
-
 * Web API app using .NET 7
 * Docker image
 * Kubernetes Helm Chart
@@ -20,30 +19,32 @@ An example app using .NET Web API.
 ## Building
 
 .NET binary:
+
 ```
 dotnet build
 ``` 
 
 Docker image:
+
 ```
-docker build -t .NETweb-api-example:main .
+docker build -t dotnet-web-api-example:main .
 ```
 
 ## Running
 
-Using .NET binary:
+.NET binary:
 ```
 dotnet run --environment Development
 ``` 
 
-Using `Docker`:
-
+`Docker`:
 ```
 docker run \
     -e "DOTNET_ENVIRONMENT=Production" \
     -e "ASPNETCORE_URLS=http://*:8080" \
     -it dotnet-web-api-example:main
 ```
+
 Then point your browser to http://localhost:8080.
 
 
