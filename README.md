@@ -11,26 +11,29 @@ An example app using DotNet Web API.
 * Kubernetes Helm Chart
 * GitHub Action workflows
 
-## Getting Started 
+## Requirements
 
-Ensure you have installed:
-* dotnet CLI
-* Docker
-* Make (optional)
+* [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+* [Docker](https://www.docker.com/)
+* [Make](https://www.gnu.org/software/make/) (optional)
 
 ## Building
 
+DotNet binary:
 ```
 dotnet build
-docker build -t dotnetweb-api-example:main .   
 ``` 
+
+Docker image:
+```
+docker build -t dotnetweb-api-example:main .
+```
 
 ## Running
 
-Using `dotnet`:
-
+Using DotNet binary:
 ```
-dotnet run
+dotnet run --environment Development
 ``` 
 
 Using `Docker`:
@@ -41,7 +44,6 @@ docker run \
     -e "ASPNETCORE_URLS=http://*:8080" \
     -it dotnetweb-api-example:main
 ```
-
 Then point your browser to http://localhost:8080.
 
 
