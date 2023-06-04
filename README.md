@@ -9,8 +9,9 @@ An example app using DotNet Web API.
 * Kubernetes Helm Chart
 * GitHub Action workflows
 
-## Requirements
+## Getting Started 
 
+Ensure you have installed:
 * dotnet CLI
 * Docker
 * Make (optional)
