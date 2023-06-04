@@ -1,5 +1,7 @@
 ## dotnet-webapi-example
 
+[![Build](https://github.com/jecklgamis/dotnet-webapi-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/dotnet-webapi-example/actions/workflows/build.yml)
+
 An example app using DotNet Web API.
 
 ## What's In the Box?
